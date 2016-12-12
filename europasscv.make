@@ -1,6 +1,6 @@
 # vim: set filetype ft=make: 
 
-all: documentation pictures
+all: pictures documentation
 
 pictures:
 	cd svg && $(MAKE) 
