@@ -742,6 +742,24 @@
   \@ecvitemskipfalse
 }
 
+\newcommand{\ecvcompanyhome}[1] {
+	\raisebox{-2\lineskip} {
+		\includegraphics[width=0.4cm] {%
+			website_europass_icon.pdf%
+		}
+	}
+	\hspace{-1mm} {
+		\fontseries{m}
+		\selectfont
+		\setul{.5pt}{.4pt}
+		\href{#1} {
+			\ul {
+				\mbox{#1}
+			}
+		}
+	}
+}
+
 \ecvRuleWidth{0pt}
 
 % colors
