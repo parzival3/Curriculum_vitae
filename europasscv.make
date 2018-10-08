@@ -1,11 +1,11 @@
-# vim: set filetype ft=make: 
+# vim: set filetype ft=make:
 
 all: pictures documentation
 
 pictures:
-	cd svg && $(MAKE) 
+	cd svg && $(MAKE)
 
-documentation: europasscv.pdf 
+documentation: europasscv.pdf
 
 europasscv.pdf: europasscv.tex
 	pdflatex $<
