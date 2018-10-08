@@ -5,12 +5,12 @@ all: pictures documentation
 pictures:
 	cd svg && $(MAKE)
 
-documentation: europasscv.pdf
+documentation: europasscv_it.pdf europasscv_eng.pdf
 
-europasscv.pdf: europasscv.tex
+europasscv_it.pdf: europasscv_it.tex
 	pdflatex $<
-	pdflatex $<
-europasscv_eng: europasscv_eng.tex
+
+europasscv_eng.pdf: europasscv_eng.tex
 	pdflatex $<
 
 distclean:
