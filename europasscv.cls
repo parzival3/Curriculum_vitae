@@ -748,7 +748,7 @@
 			website_europass_icon.pdf%
 		}
 	}
-	\hspace{-1mm} {
+	\hspace{-5mm} {
 		\fontseries{m}
 		\selectfont
 		\setul{.5pt}{.4pt}
