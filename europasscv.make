@@ -9,8 +9,10 @@ documentation: europasscv_it.pdf europasscv_eng.pdf
 
 europasscv_it.pdf: europasscv_it.tex
 	pdflatex $<
+	pdflatex $<
 
 europasscv_eng.pdf: europasscv_eng.tex
+	pdflatex $<
 	pdflatex $<
 
 distclean:
